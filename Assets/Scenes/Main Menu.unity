@@ -481,7 +481,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -631,6 +631,10 @@ PrefabInstance:
     - target: {fileID: 2822413568613225112, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Text
       value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413568613225112, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
@@ -892,6 +896,10 @@ PrefabInstance:
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
       value: Button start
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413568613225112, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
