@@ -15,9 +15,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Materi.unity
     guid: ec4382c627a03d6459d780f35e99e980
   - enabled: 1
-    path: Assets/Scenes/Materi Kubus.unity
-    guid: 7ed9d309eb7cb7d459efb34c531034be
-  - enabled: 1
     path: Assets/Scenes/Kuis.unity
     guid: e0fe60ac8554f7c409eb1ece8ff354b2
+  - enabled: 1
+    path: Assets/Scenes/Materi Bangun Ruang/Materi Kubus.unity
+    guid: 7ed9d309eb7cb7d459efb34c531034be
+  - enabled: 1
+    path: Assets/Scenes/Materi Bangun Ruang/Materi Balok.unity
+    guid: 04d70a5b9f56c7e479a4631d0f15ce57
+  - enabled: 1
+    path: Assets/Scenes/Materi Bangun Ruang/Materi Limas.unity
+    guid: cb95e54c63f18954a9591822733056fc
+  - enabled: 1
+    path: Assets/Scenes/Materi Bangun Ruang/Materi Prisma.unity
+    guid: 54d5a91eaa445014cb818b7c9d90be34
+  - enabled: 1
+    path: Assets/Scenes/Materi Bangun Ruang/Materi Bola.unity
+    guid: aed0127ce506d834d8c55eab5d912656
+  - enabled: 1
+    path: Assets/Scenes/Materi Bangun Ruang/Materi Kerucut.unity
+    guid: 3827a6768b8fb4144a7dc3d56012916b
+  - enabled: 1
+    path: Assets/Scenes/Materi Bangun Ruang/Materi Tabung.unity
+    guid: 9ddc74092d00d654498d054915321374
+  - enabled: 1
+    path: Assets/Scenes/Materi Bangun Ruang/Materi Tambahan.unity
+    guid: a097389a4315efa43bb3d0899f155d7a
   m_configObjects: {}
