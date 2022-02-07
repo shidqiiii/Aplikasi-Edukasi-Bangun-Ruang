@@ -9,7 +9,7 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
 
-    public Text questionText;
+    public GameObject questionObject;
 
     public GameObject gamePanel, gameOverPanel;
     public Text scoreText;
@@ -61,7 +61,7 @@ public class QuizManager : MonoBehaviour
         {
         currentQuestion = Random.Range(0, QnA.Count);
 
-        questionText.text = QnA[currentQuestion].Question;
+        questionObject = QnA[currentQuestion].Question;
         SetAnswer();
         }
         else

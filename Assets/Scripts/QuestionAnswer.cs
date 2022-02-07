@@ -1,8 +1,9 @@
+using UnityEngine;
 
 [System.Serializable]
 public class QuestionAnswer
 {
-    public string Question;
+    public GameObject Question;
     public string[] Answer;
     public int CorrectAnswer;
 

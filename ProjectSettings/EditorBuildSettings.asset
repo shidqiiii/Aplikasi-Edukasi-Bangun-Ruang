@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Materi Bangun Ruang/Materi Tambahan.unity
     guid: a097389a4315efa43bb3d0899f155d7a
+  - enabled: 1
+    path: Assets/Scenes/KD IPK.unity
+    guid: e6f36ec23804cf94e973b82f7dbe87d1
   m_configObjects: {}
