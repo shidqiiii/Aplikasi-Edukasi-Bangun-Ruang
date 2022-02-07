@@ -32,11 +32,24 @@ public class QuizManager : MonoBehaviour
     public void Correct()
     {
         score += 10;
-        QnA.RemoveAt(currentQuestion);
-        GenerateQuestion();
+        Invoke("WaitForNext", 1f);
     }
+
     public void Wrong()
     {
+        for (int i = 0; i < options.Length; i++)
+        {
+            if(QnA[currentQuestion].CorrectAnswer == i + 1)
+            {
+                options[i].GetComponent<Image>().color = Color.green;
+            }
+        }
+            Invoke("WaitForNext", 1f);
+    }
+
+    void WaitForNext()
+    {
+        QnA[currentQuestion].Question.SetActive(false);
         QnA.RemoveAt(currentQuestion);
         GenerateQuestion();
     }
@@ -45,6 +58,7 @@ public class QuizManager : MonoBehaviour
     {
         for (int i= 0;i< options.Length; i++)
         {
+            options[i].GetComponent<Image>().color = options[i].GetComponent<AnswerScript>().startColor;
             options[i].GetComponent<AnswerScript>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<Text>().text = QnA[currentQuestion].Answer[i];
 
@@ -59,10 +73,10 @@ public class QuizManager : MonoBehaviour
     {
         if(QnA.Count > 0)
         {
-        currentQuestion = Random.Range(0, QnA.Count);
-
-        questionObject = QnA[currentQuestion].Question;
-        SetAnswer();
+            currentQuestion = Random.Range(0, QnA.Count);
+            questionObject = QnA[currentQuestion].Question;
+            QnA[currentQuestion].Question.SetActive(true);
+            SetAnswer();
         }
         else
         {
