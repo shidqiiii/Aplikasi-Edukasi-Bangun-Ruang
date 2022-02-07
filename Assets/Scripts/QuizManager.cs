@@ -14,7 +14,7 @@ public class QuizManager : MonoBehaviour
     public GameObject gamePanel, gameOverPanel;
     public Text scoreText;
 
-    int score;
+    float score;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,7 @@ public class QuizManager : MonoBehaviour
 
     public void Correct()
     {
-        score += 10;
+        score += 6.67f;
         Invoke("WaitForNext", 1f);
     }
 
@@ -90,6 +90,6 @@ public class QuizManager : MonoBehaviour
         gamePanel.SetActive(false);
         gameOverPanel.SetActive(true);
 
-        scoreText.text = "Nilai " + score;
+        scoreText.text = "Nilai " + score.ToString("0");
     }
 }
