@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KD IPK.unity
     guid: e6f36ec23804cf94e973b82f7dbe87d1
+  - enabled: 1
+    path: Assets/Scenes/Video.unity
+    guid: c7a0169c0848ca943832c1999777eb97
   m_configObjects: {}

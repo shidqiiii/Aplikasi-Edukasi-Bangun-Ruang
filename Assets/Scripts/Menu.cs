@@ -17,6 +17,11 @@ public class Menu : MonoBehaviour
         
     }
 
+    public void OpenURL(string url)
+    {
+        Application.OpenURL(url);
+    }
+
     public void ChangScene(string scene)
     {
         SceneManager.LoadScene(scene);
