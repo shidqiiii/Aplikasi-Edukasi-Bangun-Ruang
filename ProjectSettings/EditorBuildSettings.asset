@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Materi.unity
     guid: ec4382c627a03d6459d780f35e99e980
   - enabled: 1
-    path: Assets/Scenes/Kuis.unity
+    path: Assets/Scenes/Qiuz.unity
     guid: e0fe60ac8554f7c409eb1ece8ff354b2
   - enabled: 1
     path: Assets/Scenes/Materi Bangun Ruang/Materi Kubus.unity

@@ -240,7 +240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Kuis
+      value: Quiz
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
