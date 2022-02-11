@@ -198,20 +198,19 @@ RectTransform:
   - {fileID: 2051378112}
   - {fileID: 626852885}
   - {fileID: 1944491443}
-  - {fileID: 1825341771}
   - {fileID: 1142929243}
   - {fileID: 825454448}
+  - {fileID: 1861260272}
   - {fileID: 209633831}
   - {fileID: 131758818}
-  - {fileID: 1861260272}
   - {fileID: 1247768655}
   m_Father: {fileID: 945035976}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &48371824
 MonoBehaviour:
@@ -281,11 +280,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1089005776}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: -260}
+  m_AnchoredPosition: {x: 4.415, y: -328}
   m_SizeDelta: {x: 850, y: 381.678}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &66013290
@@ -444,7 +443,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 269160493}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -550,11 +549,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 128005429}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 52.413}
+  m_AnchoredPosition: {x: 17.915, y: 41}
   m_SizeDelta: {x: 823, y: 148.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82090275
@@ -601,87 +600,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82090273}
   m_CullTransparentMesh: 1
---- !u!1 &127220913
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 127220914}
-  - component: {fileID: 127220916}
-  - component: {fileID: 127220915}
-  m_Layer: 5
-  m_Name: penjelasan (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &127220914
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127220913}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393268865}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 11.792}
-  m_SizeDelta: {x: 823, y: 113.237}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &127220915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127220913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 69a93226dd167814a9669273193eaffc, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "(Balok) Karena balok memiliki 4 rusuk panjang, 4 rusuk lebar, dan 4 rusuk
-    tinggi, maka kelilingnya adalah k2 = 4 \xD7 (p + l + t) = 4 \xD7 (10 + 13 + 9)
-    = 4 \xD7 32 = 128 cm\r"
---- !u!222 &127220916
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127220913}
-  m_CullTransparentMesh: 1
 --- !u!1 &128005428
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,20 +633,19 @@ RectTransform:
   - {fileID: 708896411}
   - {fileID: 1731232352}
   - {fileID: 1970834018}
-  - {fileID: 1048987718}
   - {fileID: 82090274}
+  - {fileID: 570602151}
   - {fileID: 1079373720}
   - {fileID: 81998346}
-  - {fileID: 570602151}
   - {fileID: 1789510370}
   - {fileID: 1006552200}
   m_Father: {fileID: 945035976}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &128005430
 MonoBehaviour:
@@ -878,7 +795,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1089005775}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1020,171 +937,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &168323080
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 168323081}
-  - component: {fileID: 168323083}
-  - component: {fileID: 168323082}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &168323081
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168323080}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1011981085}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177.90001, y: 383.09998}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &168323082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168323080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &168323083
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168323080}
-  m_CullTransparentMesh: 1
---- !u!1 &172305459
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 172305460}
-  - component: {fileID: 172305462}
-  - component: {fileID: 172305461}
-  m_Layer: 5
-  m_Name: penjelasan (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &172305460
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172305459}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393268865}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -385}
-  m_SizeDelta: {x: 823, y: 187.653}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &172305461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172305459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 69a93226dd167814a9669273193eaffc, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Dengan demikian, panjang kawat yang dibutuhkan untuk membuat keempat bangun
-    ruang tersebut adalah k = k1 + k2 + k3 + k4 = 144 + 128 + 117 + 136 = 525 cm
-
-    Karena
-    persediaan kawat sepanjang 10 m = 1.000 cm, maka sisa kawatnya adalah 1.000 -
-    525 = 475 cm
-
-'
---- !u!222 &172305462
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172305459}
-  m_CullTransparentMesh: 1
 --- !u!1 &177831272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,8 +971,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -239.80002, y: 266.50003}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: -186.63, y: 213.93}
+  m_SizeDelta: {x: 373.25, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177831274
 MonoBehaviour:
@@ -1255,7 +1007,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t5 kaleng\r\nb.\t6 kaleng\r\nc.\t7 kaleng\r\nd.\t8 kaleng\r"
+  m_Text: "a. 5 kaleng\r\nb. 6 kaleng\r\nc. 7 kaleng\r (Jawaban)\nd. 8 kaleng\r"
 --- !u!222 &177831275
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1374,7 +1126,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 254025536}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1622,16 +1374,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1393268864}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 48371822}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1642,11 +1398,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1654,7 +1422,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -1721,12 +1493,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 517462640}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 122.96, y: 52}
-  m_SizeDelta: {x: 612.92, y: 208.741}
+  m_AnchoredPosition: {x: 122.96, y: -22.55}
+  m_SizeDelta: {x: 612.92, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &214163831
 MonoBehaviour:
@@ -1869,16 +1641,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 269160493}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1174176974}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1889,11 +1665,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1901,7 +1689,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -2045,19 +1837,18 @@ RectTransform:
   - {fileID: 387788164}
   - {fileID: 1574550661}
   - {fileID: 1383397253}
-  - {fileID: 994571793}
   - {fileID: 520568203}
   - {fileID: 907620456}
+  - {fileID: 1312816125}
   - {fileID: 1183565362}
   - {fileID: 1070942698}
-  - {fileID: 1312816125}
   m_Father: {fileID: 945035976}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254025538
 MonoBehaviour:
@@ -2130,18 +1921,17 @@ RectTransform:
   - {fileID: 909637662}
   - {fileID: 1548400741}
   - {fileID: 2003049919}
-  - {fileID: 823302264}
   - {fileID: 2074449064}
+  - {fileID: 1606820880}
   - {fileID: 429229515}
   - {fileID: 550353419}
-  - {fileID: 1606820880}
   m_Father: {fileID: 945035976}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269160495
 MonoBehaviour:
@@ -2251,7 +2041,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Banyak diagonal ruangnya adalah ...\r\na.\t2\r\nb.\t4\r\nc.\t6\r\nd.\t12\r"
+  m_Text: "Banyak diagonal ruangnya adalah ...\r\na. 2\r\nb. 4\r (Jawaban)\nc. 6\r\nd.
+    12\r"
 --- !u!222 &289171804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2370,7 +2161,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1778787720}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -2480,8 +2271,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 428.977}
-  m_SizeDelta: {x: 850, y: 100}
+  m_AnchoredPosition: {x: 4.415, y: 455.23273}
+  m_SizeDelta: {x: 850, y: 47.488}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295948258
 MonoBehaviour:
@@ -2559,8 +2350,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 196}
-  m_SizeDelta: {x: 823, y: 182.818}
+  m_AnchoredPosition: {x: 17.915, y: 203.325}
+  m_SizeDelta: {x: 823, y: 155.222}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &307132528
 MonoBehaviour:
@@ -2595,10 +2386,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Penjelasan : Pada prisma segi- n, banyak rusuknya adalah 3n, \n                        
-    sedangkan banyak sisinya adalah n+2.\r\n                         Banyak rusuk
-    pada prisma segi-15 adalah 3(15) = 45 \n                         dan banyak sisinya
-    adalah 15+2 = 17\r\n"
+  m_Text: "Penjelasan : \nPada prisma segi- n, banyak rusuknya adalah 3n, banyak
+    sisinya adalah n+2. Banyak rusuk pada prisma segi-15 adalah 3(15) = 45 dan banyak
+    sisinya adalah 15+2 = 17\r\n"
 --- !u!222 &307132529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2624,7 +2414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &334932996
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2641,17 +2431,16 @@ RectTransform:
   - {fileID: 567673689}
   - {fileID: 289171802}
   - {fileID: 2014942486}
-  - {fileID: 1014852252}
   - {fileID: 1645600569}
   - {fileID: 558724270}
   - {fileID: 1958001240}
   m_Father: {fileID: 945035976}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334932997
 MonoBehaviour:
@@ -2796,12 +2585,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1089005776}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 181.358}
-  m_SizeDelta: {x: 850, y: 70}
+  m_AnchoredPosition: {x: 4.415, y: 133.85004}
+  m_SizeDelta: {x: 850, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343825328
 MonoBehaviour:
@@ -2836,8 +2625,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Penjelasan : Perhatikan sketsa gambar limas segi empat beraturan \n                         
-    T.ABCD dan segitiga siku-siku TOP berikut."
+  m_Text: "Penjelasan : \nPerhatikan sketsa gambar limas segi empat beraturan T.ABCD
+    dan segitiga siku-siku TOP berikut."
 --- !u!222 &343825329
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2943,16 +2732,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 48371822}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1089005775}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -2963,11 +2756,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -2975,7 +2780,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -3042,7 +2851,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 550957020}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3202,7 +3011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.4399558, y: 0.075302124}
+  m_AnchoredPosition: {x: 1.4399414, y: 0.07519531}
   m_SizeDelta: {x: 950, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &410474630
@@ -3242,85 +3051,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410474628}
-  m_CullTransparentMesh: 1
---- !u!1 &428034737
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 428034738}
-  - component: {fileID: 428034740}
-  - component: {fileID: 428034739}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &428034738
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428034737}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 550957020}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211, y: 267}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &428034739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428034737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &428034740
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428034737}
   m_CullTransparentMesh: 1
 --- !u!1001 &429229514
 PrefabInstance:
@@ -3419,16 +3149,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 128005428}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 269160493}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -3439,11 +3173,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -3451,7 +3197,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -3597,12 +3347,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1174176975}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000095367, y: -305}
-  m_SizeDelta: {x: 823, y: 416.685}
+  m_AnchoredPosition: {x: 0.0000095367, y: -332.07495}
+  m_SizeDelta: {x: 823, y: 415.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &440340974
 MonoBehaviour:
@@ -3637,8 +3387,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\nPanjang sisi belah ketupat dapat dihitung dengan rumus Pythagoras, yaitu\r\n
-    AB = \u221A8\xB2 + 6\xB2 = \u221A64 + 36 = \u221A100 = 10 cm\r\nDengan demikian,
+  m_Text: "\nPanjang sisi belah ketupat dapat dihitung dengan rumus Pythagoras, yaitu\r\nAB
+    = \u221A8\xB2 + 6\xB2 = \u221A64 + 36 = \u221A100 = 10 cm\r\nDengan demikian,
     tinggi prisma bila ditinjau dari persegi panjang DCGH dapat ditentukan sebagai
     berikut.\r\n LDCGH = p \xD7 t\r\n50  = 10 \xD7 t\r\nt     = 5 cm\r\nJadi, volume
     prisma belah ketupat itu adalah\r\nV = Luas alas \xD7 t\r\n   = 96 \xD7 5 = 480
@@ -3721,7 +3471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t902 cm\xB2\r\nb.\t807 cm\xB2\r\nc.\t625 cm\xB2\r\nd.\t605 cm\xB2\r"
+  m_Text: "a. 902 cm\xB2\r (Jawaban)\nb. 807 cm\xB2\r\nc. 625 cm\xB2\r\nd. 605 cm\xB2\r"
 --- !u!222 &444700981
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3747,7 +3497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4026,7 +3776,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1011981084}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4132,12 +3882,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 517462640}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 100.792015}
-  m_SizeDelta: {x: 823, y: 187.415}
+  m_AnchoredPosition: {x: 17.915, y: 110.44}
+  m_SizeDelta: {x: 823, y: 38.129}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516271141
 MonoBehaviour:
@@ -4214,19 +3964,18 @@ RectTransform:
   - {fileID: 1478889505}
   - {fileID: 1392972900}
   - {fileID: 177831273}
-  - {fileID: 543139164}
   - {fileID: 516271140}
+  - {fileID: 214163830}
   - {fileID: 1366505784}
   - {fileID: 1522485726}
-  - {fileID: 214163830}
   - {fileID: 1719844603}
   m_Father: {fileID: 945035976}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &517462641
 MonoBehaviour:
@@ -4379,12 +4128,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 254025537}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 35.627}
-  m_SizeDelta: {x: 850, y: 144.745}
+  m_AnchoredPosition: {x: 19.412, y: -16.341986}
+  m_SizeDelta: {x: 820.01, y: 190.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &520568204
 MonoBehaviour:
@@ -4464,8 +4213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 408.93}
-  m_SizeDelta: {x: 850, y: 140.09}
+  m_AnchoredPosition: {x: 4.415, y: 424.99}
+  m_SizeDelta: {x: 850, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &526299695
 MonoBehaviour:
@@ -4510,85 +4259,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526299693}
-  m_CullTransparentMesh: 1
---- !u!1 &543139163
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 543139164}
-  - component: {fileID: 543139166}
-  - component: {fileID: 543139165}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &543139164
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543139163}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 517462640}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -157, y: 258}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &543139165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543139163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &543139166
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543139163}
   m_CullTransparentMesh: 1
 --- !u!1001 &550353418
 PrefabInstance:
@@ -4700,7 +4370,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1174176974}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4809,20 +4479,19 @@ RectTransform:
   - {fileID: 2083674973}
   - {fileID: 920866799}
   - {fileID: 1304741781}
-  - {fileID: 428034738}
   - {fileID: 920424889}
+  - {fileID: 368635371}
   - {fileID: 2145811699}
   - {fileID: 289665137}
-  - {fileID: 368635371}
   - {fileID: 1847811699}
   - {fileID: 1617798806}
   m_Father: {fileID: 945035976}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &550957021
 MonoBehaviour:
@@ -4879,7 +4548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5125,11 +4794,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 128005429}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -229, y: -148}
+  m_AnchoredPosition: {x: -229, y: -133}
   m_SizeDelta: {x: 329.93, y: 232.415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &570602152
@@ -5205,7 +4874,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 4.415, y: 408.93}
-  m_SizeDelta: {x: 850, y: 140.09}
+  m_SizeDelta: {x: 850, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626852886
 MonoBehaviour:
@@ -5281,11 +4950,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1011981085}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 113.541}
+  m_AnchoredPosition: {x: 17.915, y: 130}
   m_SizeDelta: {x: 823, y: 147.631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640444862
@@ -5366,8 +5035,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -143, y: 351}
-  m_SizeDelta: {x: 502.96, y: 182.818}
+  m_AnchoredPosition: {x: -143, y: 358.44}
+  m_SizeDelta: {x: 502.96, y: 155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647105778
 MonoBehaviour:
@@ -5402,7 +5071,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t45 dan 17\r\nb.\t45 dan 15\r\nc.\t30 dan 16\r\nd.\t30 dan 17\r"
+  m_Text: "a. 45 dan 17\r (Jawaban)\nb. 45 dan 15\r\nc. 30 dan 16\r\nd. 30 dan 17\r"
 --- !u!222 &647105779
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5595,8 +5264,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 424.1753}
-  m_SizeDelta: {x: 850, y: 109.603}
+  m_AnchoredPosition: {x: 4.415, y: 418.23}
+  m_SizeDelta: {x: 850, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &708896412
 MonoBehaviour:
@@ -5631,8 +5300,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "10. Ilham mempunyai sebuah kubus yang salah satu pojoknya \n        terpotong
-    seperti tampak pada gambar di bawah ini.\r Volume \n        kubus setelah dipotong
+  m_Text: "10. Ilham mempunyai sebuah kubus yang salah satu \n        pojoknya terpotong
+    seperti tampak pada gambar di \n        bawah ini.\r Volume kubus setelah dipotong
     adalah ... cm\xB3\r\n"
 --- !u!222 &708896413
 CanvasRenderer:
@@ -5672,12 +5341,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1778787721}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -80.636}
-  m_SizeDelta: {x: 823, y: 492.686}
+  m_AnchoredPosition: {x: 27.582, y: -102.432}
+  m_SizeDelta: {x: 803.67, y: 536.277}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &785785789
 MonoBehaviour:
@@ -5714,11 +5383,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Penjelasan : \nKetika minyak dimasukkan ke dalam tabung, maka volume minyak,
     yaitu 1,884 liter = 1.884 cm\xB3 dapat ditentukan dengan menggunakan rumus volume
-    tabung dengan jari-jarinya 10 cm, tetapi tinggi minyaknya tidak diketahui.\n\n
-    Vminyak = \u03C0r\xB2t\r\n    1.884   = (3,14) 10\xB2 t\r\n    1.884   = 314
-    t\r\n        t         = 6 cm\r\n\nDengan demikian, penambahan minyak di dalam
-    tabung akan menaikkan kapasitas minyak sehingga tingginya menjadi 14 + 6 = 20
-    cm"
+    tabung dengan jari-jarinya 10 cm, tetapi tinggi minyaknya tidak diketahui.\n\nVminyak
+    = \u03C0r\xB2t\r\n    1.884   = (3,14) 10\xB2 t\r\n    1.884   = 314 t\r\n       
+    t         = 6 cm\r\n\nDengan demikian, penambahan minyak di dalam tabung akan
+    menaikkan kapasitas minyak sehingga tingginya menjadi 14 + 6 = 20 cm"
 --- !u!222 &785785790
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5761,8 +5429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115.15, y: 297.64}
-  m_SizeDelta: {x: 558.61, y: 143.47}
+  m_AnchoredPosition: {x: -140.42, y: 292.04}
+  m_SizeDelta: {x: 506.331, y: 130.042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &815794312
 MonoBehaviour:
@@ -5802,85 +5470,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815794310}
   m_CullTransparentMesh: 1
---- !u!1 &823302263
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 823302264}
-  - component: {fileID: 823302266}
-  - component: {fileID: 823302265}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &823302264
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823302263}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 269160494}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192, y: 252.69997}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &823302265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823302263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &823302266
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823302263}
-  m_CullTransparentMesh: 1
 --- !u!1 &825454447
 GameObject:
   m_ObjectHideFlags: 0
@@ -5911,11 +5500,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 48371823}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 166.21, y: 41.536}
+  m_AnchoredPosition: {x: 166.21, y: 22}
   m_SizeDelta: {x: 526.42, y: 186.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &825454449
@@ -6231,12 +5820,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 254025537}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95.29, y: -168}
-  m_SizeDelta: {x: 420.58, y: 250.634}
+  m_AnchoredPosition: {x: -202.43, y: -237.00003}
+  m_SizeDelta: {x: 258.29, y: 250.634}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907620457
 MonoBehaviour:
@@ -6396,8 +5985,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 313, y: 295}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: 279.7539, y: 281.05972}
+  m_SizeDelta: {x: 300, y: 152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &915561011
 MonoBehaviour:
@@ -6432,7 +6021,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t415 cm\r\nb.\t475 cm\r\nc.\t479 cm\r\nd.\t484 cm\r\n"
+  m_Text: "a. 415 cm\r\nb. 475 cm\r (Jawaban)\nc. 479 cm\r\nd. 484 cm\r\n"
 --- !u!222 &915561012
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6471,12 +6060,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 550957020}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 72}
-  m_SizeDelta: {x: 823, y: 187.415}
+  m_AnchoredPosition: {x: 17.915, y: 143.1}
+  m_SizeDelta: {x: 823, y: 45.208}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &920424890
 MonoBehaviour:
@@ -6625,11 +6214,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1089005776}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198.63107, y: 41.536}
+  m_AnchoredPosition: {x: 198.63107, y: -26.463982}
   m_SizeDelta: {x: 461.578, y: 186.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922441344
@@ -6822,12 +6411,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1174176975}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 124, y: -8.217}
-  m_SizeDelta: {x: 610.84, y: 320.99}
+  m_AnchoredPosition: {x: 124, y: 9.305798}
+  m_SizeDelta: {x: 610.84, y: 267.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965831323
 MonoBehaviour:
@@ -6862,9 +6451,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Luas bidang ABCD = luas bidang EFGH, yaitu \r\n LABCD = LEFGH = 16/2 \xD7
-    12 = 96 cm\xB2\r \r\nLsisi tegak = 392 - 2 \xD7 96 = 200 cm\xB2\r\nKarena sisi
-    tegak prisma terdiri dari 4 persegi panjang yang kongruen, maka luas masing-masing
+  m_Text: "Luas bidang ABCD = luas bidang EFGH, yaitu LABCD = LEFGH = 16/2 \xD7 12
+    = 96 cm\xB2\r \r\nLsisi tegak = 392 - 2 \xD7 96 = 200 cm\xB2\r\nKarena sisi tegak
+    prisma terdiri dari 4 persegi panjang yang kongruen, maka luas masing-masing
     persegi panjang itu adalah \r\n Lpp = 200/4 = 50 cm\xB2\r"
 --- !u!222 &965831324
 CanvasRenderer:
@@ -6891,7 +6480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &968422755
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6907,21 +6496,19 @@ RectTransform:
   - {fileID: 295948257}
   - {fileID: 647105777}
   - {fileID: 307132527}
-  - {fileID: 2114878700}
   - {fileID: 2002444701}
   - {fileID: 1272364461}
+  - {fileID: 974349501}
   - {fileID: 1864032880}
   - {fileID: 1693099034}
-  - {fileID: 1005308523}
-  - {fileID: 974349501}
   - {fileID: 1409667489}
   m_Father: {fileID: 945035976}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968422756
 MonoBehaviour:
@@ -6991,12 +6578,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 968422755}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -204.908}
-  m_SizeDelta: {x: 823, y: 82.634}
+  m_AnchoredPosition: {x: 17.915, y: -220.543}
+  m_SizeDelta: {x: 823, y: 115.897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &974349502
 MonoBehaviour:
@@ -7031,8 +6618,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Penjelasan : Untuk mempermudah perhitungan, anggap saja nilai \n                         
-    a = 1."
+  m_Text: "Penjelasan : \nUntuk mempermudah perhitungan, anggap saja nilai \na =
+    1."
 --- !u!222 &974349503
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7138,16 +6725,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1089005775}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1011981084}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -7158,11 +6749,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -7170,7 +6773,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -7207,164 +6814,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
   m_PrefabInstance: {fileID: 992961709}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &994571792
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 994571793}
-  - component: {fileID: 994571795}
-  - component: {fileID: 994571794}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &994571793
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994571792}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 254025537}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195, y: 251}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &994571794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994571792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &994571795
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994571792}
-  m_CullTransparentMesh: 1
---- !u!1 &1005308522
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1005308523}
-  - component: {fileID: 1005308525}
-  - component: {fileID: 1005308524}
-  m_Layer: 5
-  m_Name: jawaban benar (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1005308523
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005308522}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 968422755}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 246, y: -81}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1005308524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005308522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1005308525
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005308522}
-  m_CullTransparentMesh: 1
 --- !u!1 &1006552199
 GameObject:
   m_ObjectHideFlags: 0
@@ -7395,11 +6844,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 128005429}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -334}
+  m_AnchoredPosition: {x: 17.915, y: -319.00003}
   m_SizeDelta: {x: 823, y: 88.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006552201
@@ -7478,18 +6927,17 @@ RectTransform:
   - {fileID: 438112145}
   - {fileID: 2026197035}
   - {fileID: 444700979}
-  - {fileID: 168323081}
   - {fileID: 640444861}
+  - {fileID: 1516579970}
   - {fileID: 992961710}
   - {fileID: 182335477}
-  - {fileID: 1516579970}
   m_Father: {fileID: 945035976}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1011981086
 MonoBehaviour:
@@ -7528,164 +6976,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011981084}
-  m_CullTransparentMesh: 1
---- !u!1 &1014852251
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1014852252}
-  - component: {fileID: 1014852254}
-  - component: {fileID: 1014852253}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1014852252
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014852251}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 334932996}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -45.4, y: 350.3}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1014852253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014852251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1014852254
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014852251}
-  m_CullTransparentMesh: 1
---- !u!1 &1048987717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1048987718}
-  - component: {fileID: 1048987720}
-  - component: {fileID: 1048987719}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1048987718
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048987717}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 128005429}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 94.89998, y: 252.69997}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1048987719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048987717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1048987720
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048987717}
   m_CullTransparentMesh: 1
 --- !u!1 &1065643407
 GameObject:
@@ -7872,7 +7162,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 128005428}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -7948,85 +7238,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
   m_PrefabInstance: {fileID: 1070942697}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1075011639
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1075011640}
-  - component: {fileID: 1075011642}
-  - component: {fileID: 1075011641}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1075011640
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075011639}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1089005776}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -240, y: 356}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1075011641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075011639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1075011642
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075011639}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1079373719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8124,16 +7335,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 254025536}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 128005428}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -8144,11 +7359,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -8156,7 +7383,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -8225,20 +7456,19 @@ RectTransform:
   - {fileID: 1428653942}
   - {fileID: 526299694}
   - {fileID: 1416349048}
-  - {fileID: 1075011640}
   - {fileID: 343825327}
   - {fileID: 922441343}
+  - {fileID: 1138274709}
   - {fileID: 347233298}
   - {fileID: 511307661}
-  - {fileID: 1138274709}
   - {fileID: 66013289}
   m_Father: {fileID: 945035976}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089005777
 MonoBehaviour:
@@ -8308,11 +7538,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1089005776}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -233.05, y: 45.42}
+  m_AnchoredPosition: {x: -233.05, y: -22.579983}
   m_SizeDelta: {x: 375.07, y: 178.642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138274710
@@ -8383,11 +7613,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 48371823}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 166.99815}
+  m_AnchoredPosition: {x: 4.415, y: 152}
   m_SizeDelta: {x: 850, y: 40.716}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142929244
@@ -8431,85 +7661,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142929242}
-  m_CullTransparentMesh: 1
---- !u!1 &1160483405
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1160483406}
-  - component: {fileID: 1160483408}
-  - component: {fileID: 1160483407}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1160483406
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160483405}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1791509037}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46, y: 242}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1160483407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160483405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1160483408
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160483405}
   m_CullTransparentMesh: 1
 --- !u!1 &1172105364
 GameObject:
@@ -8619,19 +7770,18 @@ RectTransform:
   - {fileID: 1786785183}
   - {fileID: 1536427583}
   - {fileID: 1384704223}
-  - {fileID: 1765002463}
   - {fileID: 1203393408}
+  - {fileID: 965831322}
   - {fileID: 235768987}
   - {fileID: 2109074196}
-  - {fileID: 965831322}
   - {fileID: 440340973}
   m_Father: {fileID: 945035976}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174176976
 MonoBehaviour:
@@ -8768,16 +7918,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1011981084}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 254025536}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -8788,11 +7942,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -8800,7 +7966,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -8867,12 +8037,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1174176975}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 135.79}
-  m_SizeDelta: {x: 823, y: 187.415}
+  m_AnchoredPosition: {x: 17.915, y: 182.55}
+  m_SizeDelta: {x: 823, y: 79.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1203393409
 MonoBehaviour:
@@ -8907,8 +8077,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Penjelasan : Perhatikan sketsa gambar prisma belah ketupat \n                        
-    ABCD.EFGH berikut."
+  m_Text: "Penjelasan : \nPerhatikan sketsa gambar prisma ABCD.EFGH berikut."
 --- !u!222 &1203393410
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8947,11 +8116,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 48371823}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: -165}
+  m_AnchoredPosition: {x: 4.415, y: -184.53601}
   m_SizeDelta: {x: 850, y: 150.977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247768656
@@ -9103,12 +8272,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 968422755}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -30.050991, y: -49.233}
-  m_SizeDelta: {x: 723.7, y: 215.286}
+  m_AnchoredPosition: {x: 18.757, y: -62.211994}
+  m_SizeDelta: {x: 821.32, y: 195.762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272364462
 MonoBehaviour:
@@ -9143,9 +8312,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\tBola dengan panjang jari-jari a cm\r\nb.\tKerucut dengan panjang jari-jari
-    2a cm dan \n     tinggi a cm\r\nc.\tTabung dengan panjang jari-jari a cm dan
-    \n     tinggi 2a cm\r\nd.\tKubus dengan panjang rusuk 3/2 a cm\r"
+  m_Text: "a. Bola dengan panjang jari-jari a cm\r\nb. Kerucut dengan panjang jari-jari
+    2a cm & tinggi a cm\r\nc. Tabung dengan panjang jari-jari a cm & tinggi 2a cm\r
+    (Jawaban)\nd. Kubus dengan panjang rusuk 3/2 a cm\r"
 --- !u!222 &1272364463
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9224,10 +8393,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Penjelasan : Kubus kecil yang terkena cat hanya pada satu sisinya \n                         
-    adalah kubus yang tidak terletak di pinggir pada \n                         
-    setiap sisi kubus seperti yang telah terarsir pada \n                         
-    ilustrasi gambar berikut."
+  m_Text: "Penjelasan : \nKubus kecil yang terkena cat hanya pada satu sisinya adalah
+    kubus yang tidak terletak di pinggir pada setiap sisi kubus seperti yang telah
+    terarsir pada ilustrasi gambar berikut."
 --- !u!222 &1294852501
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9270,8 +8438,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 141.20001, y: 275.50006}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: 165.175, y: 267.28}
+  m_SizeDelta: {x: 314.85, y: 160.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304741782
 MonoBehaviour:
@@ -9306,7 +8474,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t156 cm\xB2\r\nb.\t158 cm\xB2\r\nc.\t184 cm\xB2\r\nd.\t236 cm\xB2\r"
+  m_Text: "a. 156 cm\xB2\r\nb. 158 cm\xB2\r\nc. 184 cm\xB2\r (Jawaban)\nd. 236 cm\xB2\r"
 --- !u!222 &1304741783
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9531,11 +8699,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 254025537}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 163, y: -168}
+  m_AnchoredPosition: {x: 137, y: -237}
   m_SizeDelta: {x: 420.58, y: 250.634}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1312816126
@@ -9599,7 +8767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -9675,11 +8843,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -9688,7 +8856,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1778787720}
+      objectReference: {fileID: 35961713}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -9703,7 +8871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: ChangScene
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -9711,11 +8879,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Menu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
@@ -9723,7 +8895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
+      value: Select Menu
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -10051,16 +9223,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1174176974}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 517462639}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -10071,11 +9247,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -10083,7 +9271,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -10154,8 +9346,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -257.14, y: 194.00005}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: -237.32413, y: 164.99998}
+  m_SizeDelta: {x: 306.532, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1383397254
 MonoBehaviour:
@@ -10190,7 +9382,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t15 hari\r\nb.\t20 hari\r\nc.\t30 hari\r\nd.\t40 hari\r"
+  m_Text: "a. 15 hari\r (Jawaban)\nb. 20 hari\r\nc. 30 hari\r\nd. 40 hari\r"
 --- !u!222 &1383397255
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10233,8 +9425,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -239.80002, y: 301.50003}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: -204, y: 294.37}
+  m_SizeDelta: {x: 334.223, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384704224
 MonoBehaviour:
@@ -10269,7 +9461,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t392 cm\xB3\r\nb.\t480 cm\xB3\r\nc.\t584 cm\xB3\r\nd.\t960 cm\xB3\r\n"
+  m_Text: "a. 392 cm\xB3\r\nb. 480 cm\xB3\r (Jawaban)\nc. 584 cm\xB3\r\nd. 960 cm\xB3\r\n"
 --- !u!222 &1384704225
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10277,87 +9469,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384704222}
-  m_CullTransparentMesh: 1
---- !u!1 &1387034673
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1387034674}
-  - component: {fileID: 1387034676}
-  - component: {fileID: 1387034675}
-  m_Layer: 5
-  m_Name: penjelasan (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1387034674
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387034673}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393268865}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -249.22}
-  m_SizeDelta: {x: 823, y: 118.946}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1387034675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387034673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 69a93226dd167814a9669273193eaffc, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "(Limas) Bangun ruang ini memiliki 4 rusuk alas yang sama panjang dan 4
-    rusuk tegak yang juga sama panjang sehingga kelilingnya 4 \xD7 13 + 4 \xD7 21
-    = 52 + 84 = 136 cm\r"
---- !u!222 &1387034676
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387034673}
   m_CullTransparentMesh: 1
 --- !u!1 &1392972899
 GameObject:
@@ -10393,7 +9504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -303.08, y: 56.000015}
+  m_AnchoredPosition: {x: -303.08, y: -8.999972}
   m_SizeDelta: {x: 181, y: 187}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392972901
@@ -10467,21 +9578,16 @@ RectTransform:
   - {fileID: 2014880156}
   - {fileID: 815794311}
   - {fileID: 915561010}
-  - {fileID: 1447370160}
   - {fileID: 1395228774}
   - {fileID: 1573234052}
   - {fileID: 506298505}
-  - {fileID: 127220914}
-  - {fileID: 1818302074}
-  - {fileID: 1387034674}
-  - {fileID: 172305460}
   m_Father: {fileID: 945035976}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1393268866
 MonoBehaviour:
@@ -10551,12 +9657,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1393268865}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 127.883026}
-  m_SizeDelta: {x: 823, y: 118.946}
+  m_AnchoredPosition: {x: 17.915, y: -152.49489}
+  m_SizeDelta: {x: 823, y: 710}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1395228775
 MonoBehaviour:
@@ -10592,7 +9698,17 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Penjelasan : \n(Kubus) Karena kubus memiliki 12 rusuk yang sama panjang,
-    maka kelilingnya adalah k1 = 12 \xD7 s = 12 \xD7 12 = 144 cm\r"
+    maka kelilingnya adalah k1 = 12 \xD7 s = 12 \xD7 12 = 144 cm\r\n(Balok) Karena
+    balok memiliki 4 rusuk panjang, 4 rusuk lebar, dan 4 rusuk tinggi, maka kelilingnya
+    adalah k2 = 4 \xD7 (p + l + t) = 4 \xD7 (10 + 13 + 9) = 4 \xD7 32 = 128 cm\r\n(Prisma)
+    Bangun ruang ini memiliki sisi alas dan atas berupa segitiga sama sisi (ada 6
+    rusuk yang sama panjang) dan 3 rusuk tinggi yang sama panjang sehingga kelilingnya
+    k3 = 6 \xD7 12 + 3 \xD7 15 = 72 + 45 = 117 cm\r\n(Limas) Bangun ruang ini memiliki
+    4 rusuk alas yang sama panjang dan 4 rusuk tegak yang juga sama panjang sehingga
+    kelilingnya 4 \xD7 13 + 4 \xD7 21 = 52 + 84 = 136 cm\r\nDengan demikian, panjang
+    kawat yang dibutuhkan untuk membuat keempat bangun ruang tersebut adalah k =
+    k1 + k2 + k3 + k4 = 144 + 128 + 117 + 136 = 525 cm\nKarena persediaan kawat sepanjang
+    10 m = 1.000 cm, maka sisa kawatnya adalah 1.000 - 525 = 475 cm\n"
 --- !u!222 &1395228776
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10706,12 +9822,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 968422755}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -363}
-  m_SizeDelta: {x: 823, y: 251.436}
+  m_AnchoredPosition: {x: 17.02, y: -397.849}
+  m_SizeDelta: {x: 823, y: 238.723}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409667490
 MonoBehaviour:
@@ -10749,8 +9865,8 @@ MonoBehaviour:
   m_Text: "Opsi A:\r  Vbola = 4/3 \xD7 \u03C0r\xB3 = 4/3 \xD7 (3,14) (1)\xB3 \u2248
     4,187\r\nOpsi B:\r  Vkerucut = \u2153\u03C0r\xB2t = \u2153(3,14)(2)\xB2(1) \u2248
     4,187\r\nOpsi C:\r  Vtabung = \u03C0r\xB2t = (3,14)(1)\xB2(2) = 6,28\r\nOpsi
-    D:\r  Vkubus = s\xB3 = (3/2)\xB3 = 3,37\r\n\nDisimpulkan bahwa volume paling
-    besar dimiliki oleh tabung dengan panjang jari-jari  a cm dan tinggi 2a cm.\r"
+    D:\r  Vkubus = s\xB3 = (3/2)\xB3 = 3,37\r\nDisimpulkan bahwa volume paling besar
+    dimiliki oleh tabung dengan panjang jari-jari  a cm dan tinggi 2a cm.\r"
 --- !u!222 &1409667491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10776,7 +9892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -10856,16 +9972,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 550957019}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1778787720}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -10876,11 +9996,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -10888,7 +10020,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name
@@ -10959,8 +10095,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -287.14, y: 299}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: -287.14, y: 273}
+  m_SizeDelta: {x: 266.9, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416349049
 MonoBehaviour:
@@ -10995,7 +10131,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t16 cm\r\nb.\t12 cm\r\nc.\t8 cm\r\nd.\t6 cm\r\n"
+  m_Text: "a. 16 cm\r (Jawaban)\nb. 12 cm\r\nc. 8 cm\r\nd. 6 cm\r\n"
 --- !u!222 &1416349050
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11079,85 +10215,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428653941}
   m_CullTransparentMesh: 1
---- !u!1 &1447370159
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1447370160}
-  - component: {fileID: 1447370162}
-  - component: {fileID: 1447370161}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1447370160
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447370159}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393268865}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 374.03003, y: 318.89008}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1447370161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447370159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1447370162
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447370159}
-  m_CullTransparentMesh: 1
 --- !u!1 &1473230661
 GameObject:
   m_ObjectHideFlags: 0
@@ -11192,8 +10249,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -240.79999, y: 267.50006}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: -210.2861, y: 252.54}
+  m_SizeDelta: {x: 327.928, y: 153}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1473230663
 MonoBehaviour:
@@ -11228,7 +10285,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t16 cm\r\nb.\t18 cm\r\nc.\t19 cm\r\nd.\t20 cm\r\n"
+  m_Text: "a. 16 cm\r\nb. 18 cm\r\nc. 19 cm\r\nd. 20 cm\r (Jawaban)\n"
 --- !u!222 &1473230664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11346,8 +10403,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 404.01028}
-  m_SizeDelta: {x: 850, y: 149.933}
+  m_AnchoredPosition: {x: 4.415, y: 383.9558}
+  m_SizeDelta: {x: 850, y: 190.042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1478889506
 MonoBehaviour:
@@ -11382,10 +10439,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "13. Sebuah tugu berbentuk balok, alasnya berupa persegi dengan \n      
-    ukuran 50 cm \xD7 50 cm , sedangkan tinggi tugu 3 meter. Jika \n       tugu akan
-    dicat dengan satu kaleng cat untuk 1 m\xB2 , maka \n       paling sedikit cat
-    yang diperlukan adalah ..."
+  m_Text: "13. Sebuah tugu berbentuk balok, alasnya berupa persegi \n       dengan
+    ukuran 50 cm \xD7 50 cm , sedangkan tinggi tugu \n       3 meter. Jika tugu akan
+    dicat dengan satu kaleng cat \n       untuk 1 m\xB2 , maka paling sedikit cat
+    yang diperlukan \n       adalah ..."
 --- !u!222 &1478889507
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11499,11 +10556,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1011981085}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -191.85886}
+  m_AnchoredPosition: {x: 17.915, y: -175.39987}
   m_SizeDelta: {x: 823, y: 463.169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1516579971
@@ -11663,7 +10720,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 550957019}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -11773,8 +10830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -298.63, y: 41.64801}
-  m_SizeDelta: {x: 189.91, y: 221.26}
+  m_AnchoredPosition: {x: -298.63, y: 27.199982}
+  m_SizeDelta: {x: 189.91, y: 216.159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1536427584
 MonoBehaviour:
@@ -11848,7 +10905,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -229, y: 256.02}
+  m_AnchoredPosition: {x: -229, y: 249}
   m_SizeDelta: {x: 279.665, y: 215.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1548400742
@@ -11906,7 +10963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -12109,8 +11166,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 373.3633}
-  m_SizeDelta: {x: 850, y: 211.223}
+  m_AnchoredPosition: {x: 4.415, y: 359.49}
+  m_SizeDelta: {x: 850, y: 238.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1574550662
 MonoBehaviour:
@@ -12146,10 +11203,10 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "9. Bu Belva memiliki 1 kaleng penuh berisi beras. Kaleng \n     berbentuk
-    tabung dengan diameter 28 cm dan tinggi 60 cm. \n     Setiap hari Bu Audrey memasak
-    nasi dengan mengambil 2 \n     cangkir beras. Jika cangkir berbentuk tabung dengan
-    diameter \n     14 cm dan tinggi 8 cm , maka persediaan beras akan habis \n    
-    dalam waktu ...."
+    tabung dengan diameter 28 cm dan tinggi \n     60 cm. Setiap hari Bu Audrey memasak
+    nasi dengan \n     mengambil 2 cangkir beras. Jika cangkir berbentuk tabung \n    
+    dengan diameter 14 cm dan tinggi 8 cm , maka persediaan \n     beras akan habis
+    dalam waktu ..."
 --- !u!222 &1574550663
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12188,11 +11245,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 269160494}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -157.19}
+  m_AnchoredPosition: {x: 17.915, y: -164.21005}
   m_SizeDelta: {x: 823, y: 192.496}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1606820881
@@ -12269,7 +11326,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 550957020}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12344,11 +11401,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 334932996}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100.2}
+  m_AnchoredPosition: {x: 0, y: -153.61}
   m_SizeDelta: {x: 431.719, y: 386.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645600570
@@ -12680,7 +11737,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1791509037}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12755,11 +11812,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 517462640}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -107.3}
+  m_AnchoredPosition: {x: 17.915, y: -192.48}
   m_SizeDelta: {x: 823, y: 109.865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719844604
@@ -12839,7 +11896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -229, y: 256.02}
+  m_AnchoredPosition: {x: -229, y: 244.60696}
   m_SizeDelta: {x: 279.665, y: 215.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1731232353
@@ -12880,85 +11937,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731232351}
   m_CullTransparentMesh: 1
---- !u!1 &1765002462
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1765002463}
-  - component: {fileID: 1765002465}
-  - component: {fileID: 1765002464}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1765002463
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765002462}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1174176975}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -173, y: 323}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1765002464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765002462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1765002465
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765002462}
-  m_CullTransparentMesh: 1
 --- !u!1 &1778787720
 GameObject:
   m_ObjectHideFlags: 0
@@ -12991,17 +11969,16 @@ RectTransform:
   - {fileID: 1065643408}
   - {fileID: 1954194296}
   - {fileID: 1473230662}
-  - {fileID: 1788363158}
   - {fileID: 785785788}
   - {fileID: 1412169187}
   - {fileID: 1314515569}
   m_Father: {fileID: 945035976}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1778787722
 MonoBehaviour:
@@ -13150,8 +12127,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 424.1753}
-  m_SizeDelta: {x: 850, y: 109.603}
+  m_AnchoredPosition: {x: 4.415, y: 404.176}
+  m_SizeDelta: {x: 850, y: 169.999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1786785184
 MonoBehaviour:
@@ -13187,8 +12164,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "12. Sebuah prisma tegak alasnya berbentuk belah ketupat \n       dengan
-    panjang diagonal 12 cm dan 16 cm. Jika luas seluruh \n       permukaan prisma
-    392 cm\xB2, volume prisma adalah ..."
+    panjang diagonal 12 cm dan 16 cm. Jika luas \n       seluruh permukaan prisma
+    392 cm\xB2, volume prisma \n       adalah ..."
 --- !u!222 &1786785185
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13196,85 +12173,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786785182}
-  m_CullTransparentMesh: 1
---- !u!1 &1788363157
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1788363158}
-  - component: {fileID: 1788363160}
-  - component: {fileID: 1788363159}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1788363158
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788363157}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1778787721}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -194, y: 224}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1788363159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788363157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1788363160
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788363157}
   m_CullTransparentMesh: 1
 --- !u!1 &1789510369
 GameObject:
@@ -13306,11 +12204,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 128005429}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 191, y: -151}
+  m_AnchoredPosition: {x: 191, y: -136.00002}
   m_SizeDelta: {x: 443.92, y: 148.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789510371
@@ -13390,19 +12288,18 @@ RectTransform:
   - {fileID: 677467057}
   - {fileID: 2127282277}
   - {fileID: 1294852499}
-  - {fileID: 1160483406}
   - {fileID: 1717010293}
+  - {fileID: 2102804690}
   - {fileID: 1348307021}
   - {fileID: 1308457373}
-  - {fileID: 2102804690}
   - {fileID: 1797960799}
   m_Father: {fileID: 945035976}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057518523, y: 0.10932767}
-  m_AnchorMax: {x: 0.9398149, y: 0.67164344}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.000014781952}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.5, y: -210}
+  m_SizeDelta: {x: -127, y: -840}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1791509038
 MonoBehaviour:
@@ -13472,7 +12369,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1791509037}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13521,166 +12418,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797960798}
-  m_CullTransparentMesh: 1
---- !u!1 &1818302073
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1818302074}
-  - component: {fileID: 1818302076}
-  - component: {fileID: 1818302075}
-  m_Layer: 5
-  m_Name: penjelasan (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1818302074
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818302073}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393268865}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -117.29}
-  m_SizeDelta: {x: 823, y: 144.921}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1818302075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818302073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 69a93226dd167814a9669273193eaffc, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "(Prisma) Bangun ruang ini memiliki sisi alas dan atas berupa segitiga
-    sama sisi (ada 6 rusuk yang sama panjang) dan 3 rusuk tinggi yang sama panjang
-    sehingga kelilingnya k3 = 6 \xD7 12 + 3 \xD7 15 = 72 + 45 = 117 cm\r"
---- !u!222 &1818302076
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818302073}
-  m_CullTransparentMesh: 1
---- !u!1 &1825341770
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1825341771}
-  - component: {fileID: 1825341773}
-  - component: {fileID: 1825341772}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1825341771
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825341770}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 48371823}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -158.8, y: 223.4}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1825341772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825341770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &1825341773
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825341770}
   m_CullTransparentMesh: 1
 --- !u!1 &1838766762
 GameObject:
@@ -13791,11 +12528,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 550957020}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -313.74615}
+  m_AnchoredPosition: {x: 17.915, y: -298.48}
   m_SizeDelta: {x: 823, y: 357.792}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847811700
@@ -13875,11 +12612,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 48371823}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -272.84, y: 42}
+  m_AnchoredPosition: {x: -272.84, y: 22.463985}
   m_SizeDelta: {x: 295.49, y: 187.337}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861260273
@@ -14140,8 +12877,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -287.14, y: 266.88}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: -199.52, y: 258.17}
+  m_SizeDelta: {x: 442.134, y: 151.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944491444
 MonoBehaviour:
@@ -14176,7 +12913,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\tRp12.800,00\r\nb.\tRp16.000,00\r\nc.\tRp22.400,00\r\nd.\tRp28.800,00\r"
+  m_Text: "a. Rp12.800,00\r\nb. Rp16.000,00\r\nc. Rp22.400,00\r\nd. Rp28.800,00\r
+    (Jawaban)"
 --- !u!222 &1944491445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14256,8 +12994,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "15. Tabung dengan panjang jari-jari alas 10 cm berisi minyak \n       
-    setinggi 14 cm. Ke dalam tabung itu dimasukkan minyak lagi \n        sebanyak
-    1,884 liter. Tinggi minyak dalam tabung sekarang \n        adalah ... (\u03C0
+    setinggi 14 cm. Ke dalam tabung itu dimasukkan minyak \n        lagi sebanyak
+    1,884 liter. Tinggi minyak dalam tabung \n        sekarang adalah ... (\u03C0
     = 3,14)"
 --- !u!222 &1954194298
 CanvasRenderer:
@@ -14284,7 +13022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -14487,7 +13225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79, y: 263}
+  m_AnchoredPosition: {x: 79, y: 251.58698}
   m_SizeDelta: {x: 266.9, y: 144}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1970834019
@@ -14523,7 +13261,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t513\r\nb.\t621\r\nc.\t693\r\nd.\t705\r"
+  m_Text: "a. 513\r\nb. 621\r\nc. 693\r (Jawaban)\nd. 705\r"
 --- !u!222 &1970834020
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14562,12 +13300,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 968422755}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 81}
-  m_SizeDelta: {x: 850, y: 100}
+  m_AnchoredPosition: {x: 4.415, y: 79}
+  m_SizeDelta: {x: 850, y: 86.662}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2002444702
 MonoBehaviour:
@@ -14602,7 +13340,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "3. Di antara benda-benda berikut, yang volumenya paling besar \n     adalah
+  m_Text: "3. Di antara benda-benda berikut, yang volumenya paling \n     besar adalah
     ..."
 --- !u!222 &2002444703
 CanvasRenderer:
@@ -14646,8 +13384,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79, y: 263}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: 115.171, y: 255.97995}
+  m_SizeDelta: {x: 339.242, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003049920
 MonoBehaviour:
@@ -14682,8 +13420,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t32\u03C0 cm\xB3\r\nb.\t96\u03C0 cm\xB3\r\nc.\t2.016\u03C0 cm\xB3\r\nd.\t2.048\u03C0
-    cm\xB3\r\n"
+  m_Text: "a. 32\u03C0 cm\xB3\r\nb. 96\u03C0 cm\xB3\r\nc. 2.016\u03C0 cm\xB3\r (Jawaban)\nd.
+    2.048\u03C0 cm\xB3\r\n"
 --- !u!222 &2003049921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14726,8 +13464,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 424.1753}
-  m_SizeDelta: {x: 850, y: 109.603}
+  m_AnchoredPosition: {x: 4.415, y: 418.12}
+  m_SizeDelta: {x: 850, y: 122.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2014880157
 MonoBehaviour:
@@ -14843,9 +13581,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Penjelasan : Ada empat diagonal ruang pada kubus, yaitu ruas \n                         
-    garis AG, HB, CE, dan  DF seperti yang diilustrasikan \n                         
-    pada gambar di bawah ini."
+  m_Text: "Penjelasan : \nAda empat diagonal ruang pada kubus, yaitu ruas \ngaris
+    AG, HB, CE, dan  DF seperti yang diilustrasikan \npada gambar di bawah ini."
 --- !u!222 &2014942488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15034,11 +13771,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 269160494}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 32.766}
+  m_AnchoredPosition: {x: 17.915, y: 25.745941}
   m_SizeDelta: {x: 823, y: 187.415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074449065
@@ -15196,7 +13933,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1791509037}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15356,7 +14093,7 @@ PrefabInstance:
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 517462639}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -15432,85 +14169,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2822413567462049866, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
   m_PrefabInstance: {fileID: 2109074195}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2114878699
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2114878700}
-  - component: {fileID: 2114878702}
-  - component: {fileID: 2114878701}
-  m_Layer: 5
-  m_Name: jawaban benar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2114878700
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114878699}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 968422755}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -161.99998, y: 428.10004}
-  m_SizeDelta: {x: 130, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2114878701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114878699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: d9456821f7f5b3047b00d997e984e8b5, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: (Jawaban)
---- !u!222 &2114878702
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114878699}
-  m_CullTransparentMesh: 1
 --- !u!1 &2127282276
 GameObject:
   m_ObjectHideFlags: 0
@@ -15581,7 +14239,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a.\t14\r\nb.\t17\r\nc.\t24\r\nd.\t34\r"
+  m_Text: "a. 14\r\nb. 17\r\nc. 24\r\nd. 34\r (Jawaban)"
 --- !u!222 &2127282279
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15687,16 +14345,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 517462639}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 550957019}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -15707,11 +14369,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -15719,7 +14393,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822413567462049867, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2822413567462049869, guid: 78d04045890b6a54fbdb508bb253814c, type: 3}
       propertyPath: m_Name

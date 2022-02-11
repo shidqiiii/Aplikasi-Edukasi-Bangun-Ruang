@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Materi.unity
     guid: ec4382c627a03d6459d780f35e99e980
   - enabled: 1
-    path: Assets/Scenes/Qiuz.unity
+    path: Assets/Scenes/Quiz.unity
     guid: e0fe60ac8554f7c409eb1ece8ff354b2
   - enabled: 1
     path: Assets/Scenes/Materi Bangun Ruang/Materi Kubus.unity
@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Video.unity
     guid: c7a0169c0848ca943832c1999777eb97
+  - enabled: 1
+    path: Assets/Scenes/Answer Quiz.unity
+    guid: e7a67301fe495d14091709210d6cbe33
   m_configObjects: {}
