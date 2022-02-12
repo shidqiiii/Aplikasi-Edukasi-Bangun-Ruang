@@ -16,6 +16,9 @@ public class QuizManager : MonoBehaviour
 
     float score;
 
+    public AudioManager sfxEndgame;
+    public AudioSource bgm;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -87,6 +90,8 @@ public class QuizManager : MonoBehaviour
 
     void GameOver()
     {
+        bgm.Stop();
+        sfxEndgame.GameFinish();
         gamePanel.SetActive(false);
         gameOverPanel.SetActive(true);
 
