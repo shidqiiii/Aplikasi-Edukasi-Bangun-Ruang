@@ -1561,6 +1561,8 @@ MonoBehaviour:
   gamePanel: {fileID: 932523029}
   gameOverPanel: {fileID: 2039702535}
   scoreText: {fileID: 155846219}
+  sfxEndgame: {fileID: 813852591}
+  bgm: {fileID: 37126659}
 --- !u!4 &425168347
 Transform:
   m_ObjectHideFlags: 0
@@ -2945,6 +2947,7 @@ MonoBehaviour:
   sfx:
   - {fileID: 8300000, guid: 0f960a2c557299d4a87e7f9050f37aca, type: 3}
   - {fileID: 8300000, guid: c01abd1073b58e14ba373abb825e7cc8, type: 3}
+  - {fileID: 8300000, guid: 7f24e64a3cccefc448ed5caa4f66b105, type: 3}
 --- !u!82 &813852592
 AudioSource:
   m_ObjectHideFlags: 0
