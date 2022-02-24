@@ -2005,8 +2005,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: 341.99997}
-  m_SizeDelta: {x: 502.96, y: 182.818}
+  m_AnchoredPosition: {x: 90, y: 327.91}
+  m_SizeDelta: {x: 502.96, y: 211}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &289171803
 MonoBehaviour:
@@ -2041,8 +2041,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Banyak diagonal ruangnya adalah ...\r\na. 2\r\nb. 4\r (Jawaban)\nc. 6\r\nd.
-    12\r"
+  m_Text: "Yang merupakan diagonal ruang pada gambar di samping adalah ...\na. 2\r\nb.
+    4\r (Jawaban)\nc. 6\r\nd. 12\r"
 --- !u!222 &289171804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4798,7 +4798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -229, y: -133}
+  m_AnchoredPosition: {x: -229, y: -155}
   m_SizeDelta: {x: 329.93, y: 232.415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &570602152
@@ -5302,7 +5302,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "10. Ilham mempunyai sebuah kubus yang salah satu \n        pojoknya terpotong
     seperti tampak pada gambar di \n        bawah ini.\r Volume kubus setelah dipotong
-    adalah ... cm\xB3\r\n"
+    adalah ...\n"
 --- !u!222 &708896413
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5904,8 +5904,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.415, y: 424.1753}
-  m_SizeDelta: {x: 850, y: 109.603}
+  m_AnchoredPosition: {x: 4.415, y: 404.98}
+  m_SizeDelta: {x: 850, y: 148}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909637663
 MonoBehaviour:
@@ -5942,7 +5942,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "11. Sebuah tumpeng berbentuk kerucut dengan diameter alas \n       32
     cm dan tinggi 24 cm. Tumpeng tersebut dipotong secara \n      mendatar setinggi
-    6 cm. Volume tumpeng yang diarsir adalah ...."
+    6 cm. Volume tumpeng yang diarsir \n      adalah ...."
 --- !u!222 &909637664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6415,7 +6415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 124, y: 9.305798}
+  m_AnchoredPosition: {x: 124, y: -13}
   m_SizeDelta: {x: 610.84, y: 267.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965831323
@@ -6848,7 +6848,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -319.00003}
+  m_AnchoredPosition: {x: 17.915, y: -341.00003}
   m_SizeDelta: {x: 823, y: 88.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006552201
@@ -8181,7 +8181,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 182.55}
+  m_AnchoredPosition: {x: 17.915, y: 160.24423}
   m_SizeDelta: {x: 823, y: 79.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1203393409
@@ -9565,7 +9565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -204, y: 294.37}
+  m_AnchoredPosition: {x: -204, y: 272.06424}
   m_SizeDelta: {x: 334.223, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384704224
@@ -10970,7 +10970,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -298.63, y: 27.199982}
+  m_AnchoredPosition: {x: -298.63, y: 4.8942184}
   m_SizeDelta: {x: 189.91, y: 216.159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1536427584
@@ -11045,7 +11045,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -229, y: 249}
+  m_AnchoredPosition: {x: -229, y: 213}
   m_SizeDelta: {x: 279.665, y: 215.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1548400742
@@ -11343,7 +11343,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "9. Bu Belva memiliki 1 kaleng penuh berisi beras. Kaleng \n     berbentuk
-    tabung dengan diameter 28 cm dan tinggi \n     60 cm. Setiap hari Bu Audrey memasak
+    tabung dengan diameter 28 cm dan tinggi \n     60 cm. Setiap hari Bu Belva memasak
     nasi dengan \n     mengambil 2 cangkir beras. Jika cangkir berbentuk tabung \n    
     dengan diameter 14 cm dan tinggi 8 cm , maka persediaan \n     beras akan habis
     dalam waktu ..."
@@ -11389,7 +11389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: -164.21005}
+  m_AnchoredPosition: {x: 17.915, y: -200.2101}
   m_SizeDelta: {x: 823, y: 192.496}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1606820881
@@ -12036,7 +12036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -229, y: 244.60696}
+  m_AnchoredPosition: {x: -229, y: 256}
   m_SizeDelta: {x: 279.665, y: 215.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1731232353
@@ -12348,7 +12348,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 191, y: -136.00002}
+  m_AnchoredPosition: {x: 191, y: -158.00002}
   m_SizeDelta: {x: 443.92, y: 148.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789510371
@@ -13365,8 +13365,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79, y: 251.58698}
-  m_SizeDelta: {x: 266.9, y: 144}
+  m_AnchoredPosition: {x: 111.1033, y: 262.97998}
+  m_SizeDelta: {x: 331.1066, y: 144}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1970834019
 MonoBehaviour:
@@ -13401,7 +13401,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "a. 513\r\nb. 621\r\nc. 693\r (Jawaban)\nd. 705\r"
+  m_Text: "a. 513\r cm\xB3\r\nb. 621\r cm\xB3\r\nc. 693\r cm\xB3\r( Jawaban)\nd.
+    705\r cm\xB3\r"
 --- !u!222 &1970834020
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13524,7 +13525,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 115.171, y: 255.97995}
+  m_AnchoredPosition: {x: 115.171, y: 219.9799}
   m_SizeDelta: {x: 339.242, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003049920
@@ -13915,7 +13916,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915, y: 25.745941}
+  m_AnchoredPosition: {x: 17.915, y: -10.254105}
   m_SizeDelta: {x: 823, y: 187.415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074449065
@@ -14034,7 +14035,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 14. ABCD.EFGH pada gambar di bawah adalah prisma dengan ABFE sejajar dengan
     CDGH. Panjang AB = 4 cm, BC = 6 cm, AE = 8 cm dan BF = 5 cm. Luar permukaan prisma
-    adalah .....
+    adalah ...
 --- !u!222 &2083674975
 CanvasRenderer:
   m_ObjectHideFlags: 0

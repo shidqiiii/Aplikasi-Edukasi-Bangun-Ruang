@@ -406,7 +406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Perhatikan gambar kubus disamping. Banyak diagonal ruangnya adalah ...
+  m_Text: Yang merupakan diagonal ruang pada gambar di samping adalah ...
 --- !u!222 &131505299
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1253,9 +1253,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ilham mempunyai sebuah kubus yang salah satu pojoknya terpotong seperti
-    tampak pada gambar di samping ini.\r\nVolume kubus setelah dipotong adalah .......
-    cm\xB3\r"
+  m_Text: 'Ilham mempunyai sebuah kubus yang salah satu pojoknya terpotong seperti
+    tampak pada gambar di samping ini.
+
+    Volume kubus setelah dipotong adalah
+    ...'
 --- !u!222 &331593560
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1448,10 +1450,10 @@ MonoBehaviour:
   QnA:
   - Question: {fileID: 674877521}
     Answer:
-    - 2
-    - 4
-    - 6
-    - 12
+    - FC
+    - HB
+    - AB
+    - AD
     CorrectAnswer: 2
   - Question: {fileID: 1079505295}
     Answer:
@@ -1504,10 +1506,10 @@ MonoBehaviour:
     CorrectAnswer: 1
   - Question: {fileID: 1984810145}
     Answer:
-    - 513
-    - 621
-    - 693
-    - 705
+    - "513 cm\xB3 "
+    - "621 cm\xB3 "
+    - "693 cm\xB3 "
+    - "705 cm\xB3 "
     CorrectAnswer: 3
   - Question: {fileID: 1733076856}
     Answer:
@@ -4147,7 +4149,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Bu Belva memiliki 1 kaleng penuh berisi beras. Kaleng berbentuk tabung
-    dengan diameter 28 cm dan tinggi 60 cm. Setiap hari Bu Audrey memasak nasi dengan
+    dengan diameter 28 cm dan tinggi 60 cm. Setiap hari Bu Belva memasak nasi dengan
     mengambil 2 cangkir beras. Jika cangkir berbentuk tabung dengan diameter 14 cm
     dan tinggi 8 cm , maka persediaan beras akan habis dalam waktu ...
 --- !u!222 &1106170212
